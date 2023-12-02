@@ -6,6 +6,7 @@ public class Student {
     double mathGrade;
     double economicsGrade;
     double foreignLanguageGrade;
+
     public Student(int studentId, String firstName, String lastName, int course, double mathGrade, double economicsGrade, double foreignLanguageGrade) {
         this.studentId = studentId;
         this.firstName = firstName;

@@ -20,7 +20,7 @@ public class Student {
     }
 
     public void setCourse(int course) {
-        if (1 <= course || course <= 4) {
+        if (1 <= course && course <= 4) {
             this.course = course;
         }
     }
@@ -30,7 +30,7 @@ public class Student {
     }
 
     public void setGrade(int grade) {
-        if (grade >= 1 || 10 >= grade) {
+        if (grade >= 1 && 10 >= grade) {
             this.grade = grade;
         }
     }

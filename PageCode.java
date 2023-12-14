@@ -1,4 +1,4 @@
-public class CodeLocators {
+public class PageCode {
     String dropDownLocator1 = "//summary[@role='button']/span[contains(text(), 'Add file')]";
     String buttonLocator1 = "//a[contains(text(), 'Add a README')]";
     String buttonLocator2 = "//a[contains(text(), 'Protect this branch')]";

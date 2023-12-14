@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 public class PhoneNumberValidator {
 
     public boolean isValidPhoneNumber(String phoneNumber) {
-        String regex = "(\\+380)\\d{9}";
+        String regex = "\\+380\\d{9}";
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(phoneNumber);
